@@ -23,7 +23,7 @@ export default function NewGameForm({addGame}) {
     return (
         <form onSubmit={handleSubmit}>
             <TextInput id="title" label="Titulo: " value={title} setValue={setTitle} />
-            <TextInput id="cover" label="Link da capa cole abaixo:https://abrir.link/wZRot" value={cover} setValue={setCover} />
+            <TextInput id="cover" label="Link da capa cole abaixo:https://abrir.link/XsyyM" value={cover} setValue={setCover} />
             <button type="submit">Adicionar a biblioteca</button>
         </form>
     )
